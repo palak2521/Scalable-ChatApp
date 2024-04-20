@@ -1,0 +1,57 @@
+.chat-input{
+  width: 53%;
+  height: 50px;
+  padding: 10px;
+  border: 1px solid;
+  border-radius: 10px;
+  margin-left: 20%;
+  top: 5%;
+  text-align: center;
+  /* display: block;  */
+}
+/* Hide the placeholder when the input is focused */
+.chat-input:focus::placeholder {
+  opacity: 0;
+}
+.button{
+  height: 50px;
+  width: 100px;
+  padding: 10px;
+  border-radius: 10px;
+  cursor: pointer;  
+}
+
+
+.container {
+  width: 60%;
+  margin: auto;
+  height: 75vh;
+  padding: 6px;
+  overflow-y: auto;
+  margin-bottom: 10px;
+  border-radius: 7px;
+  border: 2px solid black;
+  background-image: url("bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: rgb(221, 218, 218);
+  opacity: 0.75;
+}
+.message {
+  background-color: white;
+  width: 24%;
+  padding: 4px;
+  margin: 7px 2px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center; 
+  align-items: center; 
+  margin-bottom: 10px;
+  color: black;
+  /* background-color: rgb(221, 218, 218);
+  opacity: 0.75; */
+}
